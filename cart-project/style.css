@@ -1,0 +1,69 @@
+body{
+  background-image: url(img/stock-photo-blank-cosmetic-bottles-mockups-flowers-empty-background-makeup-remover-lotion.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.product-form, .product-cards, .cart-section {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 35%;
+
+}
+h1, h2 {
+  color: #333;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #146d43;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color:white;
+  color: black;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  width: calc(33% - 20px);
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.cart-items {
+  margin: 10px 0;
+}
+
+.cart-item {
+  margin: 10px 0;
+}
+
+
+

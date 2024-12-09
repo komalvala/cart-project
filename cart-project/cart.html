@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart-pro-js</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <!-- product -->
+     <div class="product-form">
+       <h1>Add Product</h1>
+       <form id="productForm">
+         <label for="title">Title:</label>
+         <input type="text" id="title" name="title" required>
+   
+         <label for="description">Description:</label>
+         <textarea id="description" name="description" required></textarea>
+   
+         <label for="price">Price:</label>
+         <input type="number" id="price" name="price" required>
+   
+         <label for="category">Category:</label>
+         <input type="text" id="category" name="category" required>
+   
+         <label for="brand">Brand:</label>
+         <input type="text" id="brand" name="brand" required>
+   
+         <label for="color">Color:</label>
+         <input type="text" id="color" name="color" required>
+   
+         <button type="submit" id="addProductBtn">Add Product</button>
+       </form>
+     </div>
+   
+     <!-- Product Cards Section -->
+     <div class="product-cards">
+       <h2>Product List</h2>
+       <div id="productContainer" class="product-container"></div>
+     </div>
+        <!-- Cart Section -->
+     <div class="cart-section">
+       <h2>Your Cart</h2>
+       <div id="cartItems" class="cart-items"></div>
+       <button id="viewCartBtn">View Cart</button>
+     </div>
+   
+
+
+
+<script src="cart.js"></script>
+
+</body>
+</html> 
+
